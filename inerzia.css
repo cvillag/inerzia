@@ -26,7 +26,7 @@
 	width: 100%;
 	background-color: #24A;
 	border-radius: 0px;
-
+	margin-top: 30px;
 }
 
 .imgtop{
@@ -45,6 +45,18 @@
 	text-align: center;
 	border-radius: 30px;
 }
+
+@media (max-width: 500px){
+	.atitulolanding{
+		font-size: 5vw;
+	}
+
+	.btitulolanding{
+		font-size: 3.5vw;
+	}
+}
+
+
 
 .landcontent{
 	width: 80%;
