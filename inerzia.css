@@ -2,26 +2,18 @@
   box-sizing: content-box;
 }*/
 
-
+.linerzia:hover{
+	background-color:  #EEE;
+}
 
 #lista1.dropdown-menu{
 	min-width: 200px;
-}
-
-#c11{
-
 }
 
 #logonav{
 	width: 120px;
 }
 	
-/*.landingcontainer{
-	position: relative;
-    display: inline-block;
-    text-align: center;
-}
-*/
 .divimgtop{
 	width: 100%;
 	background-color: #24A;
