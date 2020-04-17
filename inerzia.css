@@ -5,7 +5,7 @@
 .linerzia:hover{
 	background-color:  #EEE;
 }
-
+	
 #lista1.dropdown-menu{
 	min-width: 200px;
 }
@@ -13,10 +13,14 @@
 #logonav{
 	width: 120px;
 }
+
+.subm{
+	margin-top: 62px;
+}
 	
 .divimgtop{
 	width: 100%;
-	background-color: #24A;
+	background-color: #fff;
 	border-radius: 0px;
 	margin-top: 30px;
 }
@@ -41,6 +45,7 @@
 @media (max-width: 500px){
 	.atitulolanding{
 		font-size: 5vw;
+
 	}
 
 	.btitulolanding{
@@ -48,7 +53,17 @@
 	}
 }
 
+@media all and (min-width: 1000px){
+	.dtitulolanding{
+		max-width: 40%;
+	}
+}
 
+@media not all and (min-width: 1000px){
+	.dtitulolanding{
+		max-width: 75%;
+	}
+}
 
 .landcontent{
 	width: 80%;

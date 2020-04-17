@@ -2,18 +2,18 @@
 	<br>
 	<div class="jumbotron">
 		<h4>Contacto</h4>
-		<form>
+		<form action="correoInerzia.php" method="post">
 			<div class="row">
 				<div class="col-md-6">
 					<div class="form-group">
 						<label for="forname">Nombre</label>
-						<input type="text" class="form-control" id="forname" name="forname" placeholder="Nombre">
+						<input type="text" class="form-control" id="forname" name="nombre" placeholder="Nombre">
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
 						<label for="forlastn">Apellidos</label>
-						<input type="text" class="form-control" id="forlastn" name="forlastn" placeholder="Apellidos">
+						<input type="text" class="form-control" id="forlastn" name="apellidos" placeholder="Apellidos">
 					</div>
 				</div>
 			</div>
@@ -21,25 +21,26 @@
 				<div class="col-md-6">
 					<div class="form-group">
 						<label for="foremail">Correo electr&oacute;nico</label>
-						<input type="email" class="form-control" id="foremail" name="foremail" placeholder="correo@ejemplo.com">
+						<input type="email" class="form-control" id="foremail" name="correo" placeholder="correo@ejemplo.com">
 					</div>
 				</div>
 				<div class="col-md-2">
 					<div class="form-group">
-						<label for="forext">P&aacute;is</label>
-						<input type="tel" maxlength="5" class="form-control" id="forext" name="forext" value="+34">
+						<label for="forext">Pa&iacute;s</label>
+						<input type="tel" maxlength="5" class="form-control" id="forext" name="pais" value="+34">
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="form-group">
 						<label for="fornum">N&uacute;mero de tel&eacute;fono</label>
-						<input type="tel" maxlength="9" class="form-control" id="fornum" name="fornum" placeholder="">
+						<input type="tel" maxlength="9" class="form-control" id="fornum" name="telefono" placeholder="">
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<input type="submit" name="Enviar">
+					<input type="hidden" name="landing" value="defecto" id="landing">
 				</div>
 			</div>
 			<div class="row">

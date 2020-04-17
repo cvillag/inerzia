@@ -12,8 +12,9 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-header container-fluid fixed-top">
-		<a href="."><img class="navbar-brand" id="logonav" src="logo.png"></a>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-header container-fluid fixed-top" style="background-color: #0082a6; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #0082a6 , #005c83); /* Standard syntax (must be last) */">
+		<a href="."><img class="navbar-brand" id="logonav" src="logo2.png"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01" aria-controls="navbar01" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -33,12 +34,12 @@
 								<path d="M2.5 11h1v1h-1v-1zm2 0h1v1h-1v-1zm-2 2h1v1h-1v-1zm2 0h1v1h-1v-1zm6-10h1v1h-1V3zm2 0h1v1h-1V3zm-4 2h1v1h-1V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm-2 2h1v1h-1V7zm2 0h1v1h-1V7zm-4 0h1v1h-1V7zm0 2h1v1h-1V9zm2 0h1v1h-1V9zm2 0h1v1h-1V9zm-4 2h1v1h-1v-1zm2 0h1v1h-1v-1zm2 0h1v1h-1v-1z"/>
 							</svg>
 							Pymes</a>
-						<a class="dropdown-item btnav" href="#" data-val="c2">
+						<a class="dropdown-item btnav2" data-val="c21">
 							<svg class="bi bi-person-check-fill" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   								<path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 100-6 3 3 0 000 6zm9.854-2.854a.5.5 0 010 .708l-3 3a.5.5 0 01-.708 0l-1.5-1.5a.5.5 0 01.708-.708L12.5 7.793l2.646-2.647a.5.5 0 01.708 0z" clip-rule="evenodd"/>
 							</svg>
 							Vida y accidentes colectivos</a>
-						<a class="dropdown-item btnav" href="#" data-val="c3">
+						<a class="dropdown-item btnav" data-val="c3">
 							<svg class="bi bi-people-fill" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   								<path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 100-6 3 3 0 000 6zm-5.784 6A2.238 2.238 0 015 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 005 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 100-5 2.5 2.5 0 000 5z" clip-rule="evenodd"/>
 							</svg>
@@ -71,9 +72,12 @@
 					</div>
 				</li>
 				<li class="nav-item">
+					<a class="nav-link" href="#">Comunidades de propietarios</a>
+				</li>
+				<li class="nav-item">
 					<a class="nav-link" href="#">Blog</a>
 				</li>
-				<li class="nav-item active">
+				<li class="nav-item">
 					<a class="nav-link" href="#">Con&oacute;cenos</a>
 				</li>
 			</ul>
@@ -81,28 +85,37 @@
 	</nav>
 	<div>
 
-		<div class="collapse ocultar" id="c1">
+		<div class="collapse ocultar subm" id="c1">
 			<div class="card" style="width: 22rem;">
 				<div class="card-header">
 				Pymes
 				</div>
 				<div class="card-body">
 					<ul class="list-group list-group-flush">
-						<li class="list-group-item btnav2" data-val="c11">Seguro de naves industriales</li>
-						<li class="list-group-item btnav2" data-val="c12">Seguro de talleres y concesionarios</li>
-						<li class="list-group-item btnav2" data-val="c16">Seguro de residencias geri&aacute;tricas</li>
-						<li class="list-group-item btnav2" data-val="c17">Seguro de cl&iacute;nicas dentales</li>
-						<li class="list-group-item btnav2" data-val="c15">Seguro de hoteles y casas rurales</li>
-						<li class="list-group-item btnav2" data-val="c13">Seguro de gasolineras</li>
-						<li class="list-group-item btnav2" data-val="c14">Seguro de bodegas y almazaras</li>
+						<li class="list-group-item btn text-left btnav2" data-val="c11" data-formu="Naves Industriales">Seguro de naves industriales</li>
+						<li class="list-group-item btn text-left btnav2" data-val="c12">Seguro de talleres y concesionarios</li>
+						<li class="list-group-item btn text-left btnav2" data-val="c16">Seguro de residencias geri&aacute;tricas</li>
+						<li class="list-group-item btn text-left btnav2" data-val="c17">Seguro de cl&iacute;nicas dentales</li>
+						<li class="list-group-item btn text-left btnav2" data-val="c15">Seguro de hoteles y casas rurales</li>
+						<li class="list-group-item btn text-left btnav2" data-val="c13">Seguro de gasolineras</li>
+						<li class="list-group-item btn text-left btnav2" data-val="c14">Seguro de bodegas y almazaras</li>
 					</ul>
 				</div>
 			</div>
 		</div>
-		<div class="collapse ocultar" id="c2">
-		  <div class="card" style="width: 22rem;">
+		<div class="collapse ocultar subm" id="c3">
+		  <div class="card" style="width: 40rem;">
 				<div class="card-header">
-				Vida y accidentes - > cambiar por un landing web
+				Responsabilidad Civil
+				</div>
+				<div class="card-body">
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item btn text-left btnav2" data-val="c31">Seguro de Responsabilidad Civil General para Empresas</li>
+						<li class="list-group-item btn text-left btnav2" data-val="c32">Seguro de Responsabilidad Civil de Administradores y Directivos</li>
+						<li class="list-group-item btn text-left btnav2" data-val="c33">Seguro de Responsabilidad Medioambiental</li>
+						<li class="list-group-item btn text-left btnav2" data-val="c34">Seguro de Responsabilidad Civil Profesional</li>
+						<li class="list-group-item btn text-left btnav2" data-val="c35">Seguro de Responsabilidad Civil Profesional para Arquitectos y Aparejadores</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -196,7 +209,12 @@
 		<div w3-include-html="seguroHotel.html"></div>
 		<div w3-include-html="seguroResidencias.html"></div>
 		<div w3-include-html="seguroClinica.html"></div>
+		<div w3-include-html="seguroVida.html"></div>
+		<div w3-include-html="seguroResponsabilidad.html"></div>
+		<div w3-include-html="seguroAdminDir.html"></div>
+		<div w3-include-html="seguroMedioambiental.html"></div>
 		<div w3-include-html="contacto.html"></div>
+
 	</div>	
 <script>
 includeHTML();

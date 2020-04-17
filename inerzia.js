@@ -9,12 +9,13 @@ $(document).ready(function(){
 	$(".btnav2").click(function(){
 		$(".ocultar").hide();
 		var cs = $(this).data("val");
+		var form = $(this).data("formu");
 		$("#"+cs).fadeIn(1200);
 		$("#navbar01").removeClass("show");
-		$("#ccont").fadeIn(2000);
+		$("#ccont").fadeIn(1200);
+		alert(form);
+		$("#landing").val(form);
 	});
-
-	
 });
 
 function includeHTML() {
