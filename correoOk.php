@@ -17,21 +17,23 @@
   background-image: linear-gradient(to right, #0082a6 , #005c83); /* Standard syntax (must be last) */">
   		<a href="."><img class="navbar-brand" id="logonav" src="logo2.png"></a>
 	</nav>
+	<div class="d-flex justify-content-center">
 	<?php
 	if($flagmail == 0){
 	?>
-	<div class="alert alert-success" role="alert" style="margin-top: 72px;max-width: 80%;">
-		<?=$mensaje?>
-	</div>
+		<div class="alert alert-success" role="alert" style="margin-top: 72px;max-width: 80%;">
+			<?=$mensaje?>
+		</div>
 	<?php
 	}
 	else{
 	?>
-	<div class="alert alert-danger" role="alert" style="margin-top: 72px;max-width: 80%;">
-		<?=$mensaje?>
-	</div>
+		<div class="alert alert-danger" role="alert" style="margin-top: 72px;max-width: 80%;">
+			<?=$mensaje?>
+		</div>
 	<?php
 	}
 	?>
+</div>	
 </body>
 </html>

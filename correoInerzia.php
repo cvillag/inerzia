@@ -9,7 +9,7 @@
 	ini_set( 'display_errors', 1 );
     error_reporting( E_ALL );
     $from = "info@testinerzia.com";
-    $to = "cvillarroelgonzalez@gmail.com";
+    $to = "lmorono@inerziaseguros.es, info@inerziaseguros.es";
     $subject = "Contacto Inerzia";
     $message = '<!DOCTYPE html><html lang="es"><head><title>Inerzia</title>';
     $message .= '<style type="text/css"></style>';
@@ -27,8 +27,7 @@
     }
     else{
     	$flagmail = 1;
-    	$mensaje = "Ha habido un error con el envío. Por favor, envíe un correo a info@inerzia.com. Disculpe las molestias.";
+    	$mensaje = "Ha habido un error con el envío. Por favor, envíe un correo a info@inerziaseguros.es. Disculpe las molestias.";
     }
-    $flagmail = 1;
     include 'correoOk.php';
 ?>

@@ -13,7 +13,6 @@ $(document).ready(function(){
 		$("#"+cs).fadeIn(1200);
 		$("#navbar01").removeClass("show");
 		$("#ccont").fadeIn(1200);
-		alert(form);
 		$("#landing").val(form);
 	});
 });
@@ -55,6 +54,16 @@ function includeHTML() {
 			$("#btnicc" + ic).attr("src","chevron-down.png");
 			$(this).data("flag",0);
 		}
-		
+	});
+
+
+	$("#enviar").click(function(){
+		if($("#leido").is(":checked")){
+			$("#formContact").submit();
+		}
+		else{
+			$("#modalEnvio").modal();
+			return false;
+		}
 	});
 }
